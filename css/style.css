@@ -9,13 +9,15 @@ body{
     padding: 10px;
     
 }
-.brand-img{
-    width: 50px;
-    height: 50px;
+.s-blue{
+   
+    padding: 5px 18px;
     border-radius: 50%;
-    padding-bottom: 5px;
-
+    background-color: rgb(100, 100, 255);
+    color: white;
+    font-weight: 900;
 }
+
 .brand-name{
     font-weight: 600;
     font-size: 30px;
@@ -81,6 +83,8 @@ body{
 .punch-tag-name{
     font-size: 50px;
     font-weight: 600;
+    margin-bottom: 30px;
+
 }
 .black{
     border-radius: 55px;
@@ -105,12 +109,13 @@ body{
 /* -------------------punch line is completed------------------ */
 .parent-flex{
     display: flex;
-    width: auto;
+    width:auto;
     margin: 20px;
     justify-content: space-between;
     align-items: center;
 }
 .child-1{
+    width: auto;
     display: flex;
     flex-grow: 1;
     justify-content: space-between;
@@ -118,6 +123,7 @@ body{
     padding: 0;
     margin: 0;
 }
+
 .icon-box{
     text-align: center;
     flex-grow: 1;
@@ -140,38 +146,27 @@ body{
 }
 
 @media(max-width:576px){
+    .parent-flex{
+        margin: 0;
+        flex-wrap: wrap;
+    }
     .container{
-        padding: 5px;
+        padding:10px;
     }
     .punch-content{
         width: auto;
-        margin:1px;
+        margin:10px;
         padding: 0px;
     }
     .punch-name{
-        font-size: 50px;
+        font-size: 30px;
         font-weight: 900;
     }
     .and{
-        font-size: 60px;
+        font-size: 50px;
     }
     .punch-tag-name{
-        font-size: 40px;
-    }
-    .parent-flex{
-        flex-wrap: wrap;
-    }
-    .ico{
         font-size: 30px;
-        padding: 0px;
-        margin: 0px;
     }
-    .icon-box{
-        font-size: 5px;
-        margin: 0px;
-        padding: 0px;
-    }
-    .child-1{
-        flex-wrap: wrap;
-    }
+    
 }
