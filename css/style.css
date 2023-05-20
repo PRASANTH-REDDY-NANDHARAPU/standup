@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+.container{
+    background-color: #FFFFFF;
+    padding: 10px;
+    
+}
+.brand-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-bottom: 5px;
+
+}
+.brand-name{
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.up-blue{
+    color: rgb(110, 110, 247);
+}
+.n-orange{
+    color: tomato;
+    font-weight: 900;
+    font-size: 45px;
+}
+.nav-link{
+    margin-right: 35px;
+    font-weight: 300;
+    background-color: #FFFFFF;
+    padding: 3px 5px;
+    border-radius: 8px;
+
+}
+.nav-link:hover{
+    margin-right: 35px;
+    font-weight: 300;
+    background-color: rgb(228, 242, 246);
+    padding: 3px 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.circle{
+    border-radius: 55px;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    background-color: rgb(81, 81, 232);
+}
+.circle:hover{
+    background-color: rgb(81, 81, 232);
+    color: white;
+
+}
+/* -------------------nav bar css completed---------------- */
+.punch-content{
+    width: auto;
+    margin: 10px;
+    /* display: flex; */
+    text-align: center;
+
+}
+.punch-name{
+    font-size: 50px;
+    font-weight: 900;
+}
+.orange{
+    color: tomato;
+
+}
+.and{
+    font-size: 80px;
+    color: tomato;
+}
+.punch-tag-name{
+    font-size: 50px;
+    font-weight: 600;
+}
+.black{
+    border-radius: 55px;
+    color: white;
+    border: 1px solid black;
+    padding: 7px 15px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+}
+.vid-btn{
+    border-radius: 55px;
+    border: 1px solid rgb(203, 201, 201);
+    background-color: white;
+    color: black;
+    padding: 7px 15px;
+    font-weight: 500;
+}
+.bi-play-fill{
+    color: blue;
+}
+/* -------------------punch line is completed------------------ */
+.parent-flex{
+    display: flex;
+    width: auto;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.child-1{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.icon-box{
+    text-align: center;
+    flex-grow: 1;
+    padding: 0;
+    margin: 0;
+}
+.ico{
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(21, 0, 255);
+    padding: 0;
+    margin: 0;
+}
+.icon-heading{
+    margin-top: 40px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+@media(max-width:576px){
+    .container{
+        padding: 5px;
+    }
+    .punch-content{
+        width: auto;
+        margin:1px;
+        padding: 0px;
+    }
+    .punch-name{
+        font-size: 50px;
+        font-weight: 900;
+    }
+    .and{
+        font-size: 60px;
+    }
+    .punch-tag-name{
+        font-size: 40px;
+    }
+    .parent-flex{
+        flex-wrap: wrap;
+    }
+    .ico{
+        font-size: 30px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .icon-box{
+        font-size: 5px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .child-1{
+        flex-wrap: wrap;
+    }
+}
