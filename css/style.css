@@ -275,10 +275,14 @@ body{
         font-size: 50px;
     }
     .punch-tag-name{
-        font-size: 40px;
+        font-size: 30px;
+    }
+    .feed-back{
+        font-size: 25px;
+
     }
     .row-1{
-        margin: 5px;
+        margin: 0px;
     }
     .c-2-1{
         margin-top: 9px;
@@ -300,6 +304,9 @@ body{
     .c-3-1{
         margin-top:9px;
     
+    }
+    .students{
+        border-radius: 8px;
     }
    
     
