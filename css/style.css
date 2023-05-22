@@ -252,6 +252,12 @@ body{
 .row-m{
     margin-top: -25px;
 }
+.hilight{
+    background-color: rgb(24, 244, 75);
+}
+.feed-p{
+    text-align: center;
+}
 
 
 @media(max-width:576px){
