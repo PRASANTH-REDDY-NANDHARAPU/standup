@@ -225,6 +225,34 @@ body{
 .tomato{
     color: tomato;
 }
+.card-1{
+    box-shadow: 1px 2px 20px 5px rgb(232, 231, 231);
+
+    border-radius: 17px;
+}
+.shop-img{
+
+    border-radius: 15px 15px 0 0;
+}
+.card-p{
+    padding: 10px;
+}
+.free-mov{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.right-arrow{
+    color: rgb(19, 14, 125);
+    font-size:30px;
+    font-weight: bolder;
+    margin-right: 130px;
+    margin-top: -18px;
+}
+.row-m{
+    margin-top: -25px;
+}
+
 
 @media(max-width:576px){
     .s-blue{
@@ -306,9 +334,23 @@ body{
     
     }
     .students{
-        border-radius: 8px;
+        border-radius: 7px;
     }
-   
+    .shop-img{
+
+        border-radius: 7px 7px 0 0;
+    }
+    .card-1{
+        border-radius: 8px;
+        margin-bottom: 18px;
+    }
+    .right-arrow{
+        color: rgb(19, 14, 125);
+        font-size:30px;
+        font-weight: bolder;
+        margin-right: 70px;
+        margin-top: -15px;
+    }
     
     
 }
