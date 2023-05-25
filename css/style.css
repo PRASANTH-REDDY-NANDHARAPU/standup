@@ -266,7 +266,6 @@ body {
   box-shadow: 1px 2px 20px 5px rgb(232, 231, 231);
   padding: 20px;
   opacity: calc(80%);
-  /* background-color: rgb(248, 167, 181); */
   color: black;
   border: none;
   text-decoration: none;
@@ -287,17 +286,17 @@ body {
 }
 /* --------footer------- */
 .flex-container{
-  padding-left: 70px;
-  padding-right: 100px;
-  padding-bottom: 20px;
-
-
+  margin: 10px 80px;
+  width:auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
 }
 .links-flex{
+  width: 350px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 
 
@@ -306,7 +305,15 @@ body {
   width: 150px;
   display: flex;
   justify-content: space-between;
-
+  align-items: center;
+}
+.foot-link{
+  text-decoration: none;
+  color: black;
+  font-weight:400;
+}
+.foot-link:hover{
+  border-bottom: 2px solid teal;
 }
 .flex-ico{
   font-size: 30px;
@@ -321,6 +328,9 @@ body {
 }
 .bi-twitter{
   color: rgb(80, 138, 255);
+}
+.ico-none{
+  text-decoration: none;
 }
 
 
@@ -418,4 +428,19 @@ body {
   .help{
     margin: 10px;
   }
+  .flex-container{
+    width: auto;
+    margin:0px 20px;
+    flex-wrap:wrap;
+    margin:0px 20px;
+    justify-content: center;
+    text-align: center;
+  }
+  .links-flex{
+    width:100%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+  }
+
 }
