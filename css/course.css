@@ -1,50 +1,55 @@
-.course-row{
-    margin-top: 10px;
-    border-radius: 10px;
-    margin-left: 100px;
-    
+.course-active {
+  border-bottom: 4px solid teal;
 }
-.scroll-opt{
-    height: 575px;
-    box-shadow: 1px 2px 20px 5px rgb(232, 231, 231);
-    overflow-y: auto;
-    border-radius: 15px;
-    padding:15px;
+.break-1 {
+  display: none;
 }
-.table-tech{
-    border: none;
-    height: 580px;
-    overflow-y: auto;
-    box-shadow: 1px 2px 20px 5px rgb(232, 231, 231);
+.break-2 {
+  display: none;
 }
-.concepts{
-    width: 100%;
-    padding: 20px;
-    /* box-shadow: 1px 2px 20px 5px rgb(232, 231, 231); */
-    border-radius: 8px;
-    margin-bottom: 20px;
+.course-img {
+  height: 220px;
+  object-fit: cover;
+}
+.card-pos {
+  position: relative;
+}
+.card-absolute-pos {
+  position: absolute;
+  top: 0;
+  font-weight: bolder;
+  margin: 10px;
+  color: rgb(29, 232, 232);
+}
+.ratings {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 190px;
+  margin-left: 10px;
+  font-weight: bolder;
+  color:rgb(4, 192, 26);
 
+}
+.cancel{
+  text-decoration: line-through;
+  color: grey;
+}
+.money{
+  font-weight: bolder;
 
 }
-.con-flex{
-    display: flex;
-    justify-content: space-between;
+.c-break{
+  display: none;
 }
 @media (max-width: 576px) {
-    .course-row{
-        margin:5px 3px;
-        border-radius:3px;
-        
-    }
-    .scroll-opt{
-        border-radius:3px;
-        width: auto;
-        margin: 0;
-        padding: 0;
-        height: 300px;
-    }
-    .table-tech{
-        height: 400px;
-        margin-top: 20px;
-    }
+  .break-1 {
+    display: block;
+  }
+  .break-2 {
+    display: block;
+  }
+  .c-break{
+    display: block;
+  }
 }

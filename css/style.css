@@ -3,6 +3,13 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.con-static{
+  position: sticky;
+  top: 0;
+}
+.home-link{
+  border-bottom: 4px solid teal;
+}
 .login-black {
   text-decoration: none;
   color: white;
@@ -294,7 +301,7 @@ body {
 
 }
 .links-flex{
-  width: 350px;
+  width: 450px;
   display: flex;
   align-items: center;
   justify-content: space-between;

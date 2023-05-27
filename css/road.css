@@ -1,0 +1,54 @@
+.road-active{
+    border-bottom: 4px solid teal;
+}
+
+.course-row{
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+    
+}
+.scroll-opt{
+    height: 575px;
+    box-shadow: 1px 2px 20px 5px rgb(232, 231, 231);
+    overflow-y: auto;
+    border-radius: 15px;
+    padding:15px;
+}
+.table-tech{
+    border: none;
+    height: 580px;
+    overflow-y: auto;
+    box-shadow: 1px 2px 20px 5px rgb(232, 231, 231);
+}
+.concepts{
+    width: 100%;
+    padding: 20px;
+    /* box-shadow: 1px 2px 20px 5px rgb(232, 231, 231); */
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+
+}
+.con-flex{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 576px) {
+    .course-row{
+        margin:5px 3px;
+        border-radius:3px;
+        
+    }
+    .scroll-opt{
+        border-radius:3px;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        height: 300px;
+    }
+    .table-tech{
+        height: 400px;
+        margin-top: 20px;
+    }
+}
