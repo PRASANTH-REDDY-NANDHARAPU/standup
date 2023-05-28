@@ -48,6 +48,9 @@
 .c-break {
   display: none;
 }
+.mob-vis{
+  display: none;
+}
 @media (max-width: 576px) {
   .break-1 {
     display: block;
@@ -60,6 +63,12 @@
   }
   .d-mb-none{
     display: none;
+  }
+  .lap-vis{
+    display: none;
+  }
+  .mob-vis{
+    display:block;
   }
 
 }
