@@ -20,26 +20,32 @@
   font-weight: bolder;
   margin: 10px;
   color: rgb(29, 232, 232);
+  display: flex;
+  
 }
 .ratings {
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: 190px;
+  margin-top: 180px;
   margin-left: 10px;
   font-weight: bolder;
-  color:rgb(4, 192, 26);
-
+  color: rgb(0, 0, 0);
+  display: flex;
 }
-.cancel{
+.opa{
+  opacity: calc(70%);
+  color: black;
+  font-weight:400;
+}
+.cancel {
   text-decoration: line-through;
   color: grey;
 }
-.money{
+.money {
   font-weight: bolder;
-
 }
-.c-break{
+.c-break {
   display: none;
 }
 @media (max-width: 576px) {
@@ -49,7 +55,11 @@
   .break-2 {
     display: block;
   }
-  .c-break{
+  .c-break {
     display: block;
   }
+  .d-mb-none{
+    display: none;
+  }
+
 }

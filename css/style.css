@@ -3,11 +3,11 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-.con-static{
+.con-static {
   position: sticky;
   top: 0;
 }
-.home-link{
+.home-link {
   border-bottom: 4px solid teal;
 }
 .login-black {
@@ -278,68 +278,63 @@ body {
   text-decoration: none;
   margin-top: -20px;
 }
-.helping{
+.helping {
   text-decoration: none;
   color: black;
   font-weight: 900;
-
 }
-.ico-g{
-    color: rgb(5, 55, 237);
-    font-weight: 900;
+.ico-g {
+  color: rgb(5, 55, 237);
+  font-weight: 900;
 }
-.foot-fields{
-       list-style-type:none;
+.foot-fields {
+  list-style-type: none;
 }
 /* --------footer------- */
-.flex-container{
+.flex-container {
   margin: 10px 80px;
-  width:auto;
+  width: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
-.links-flex{
+.links-flex {
   width: 450px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-
 }
-.icons-flex{
+.icons-flex {
   width: 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.foot-link{
+.foot-link {
   text-decoration: none;
   color: black;
-  font-weight:400;
+  font-weight: 400;
 }
-.foot-link:hover{
+.foot-link:hover {
   border-bottom: 2px solid teal;
 }
-.flex-ico{
+.flex-ico {
   font-size: 30px;
   font-weight: bolder;
 }
-.bi-instagram{
-  color:red;
+.bi-instagram {
+  color: red;
   padding: 0;
 }
-.bi-facebook{
-  color:blue;
+.bi-facebook {
+  color: blue;
 }
-.bi-twitter{
+.bi-twitter {
   color: rgb(80, 138, 255);
 }
-.ico-none{
+.ico-none {
   text-decoration: none;
 }
-
 
 @media (max-width: 576px) {
   .s-blue {
@@ -432,22 +427,20 @@ body {
     margin-right: 70px;
     margin-top: -15px;
   }
-  .help{
+  .help {
     margin: 10px;
   }
-  .flex-container{
+  .flex-container {
     width: auto;
-    margin:0px 20px;
-    flex-wrap:wrap;
-    margin:0px 20px;
+    margin: 0px 20px;
+    flex-wrap: wrap;
+    margin: 0px 20px;
     justify-content: center;
     text-align: center;
   }
-  .links-flex{
-    width:100%;
+  .links-flex {
+    width: 100%;
     justify-content: space-between;
     margin-bottom: 30px;
-
   }
-
 }
