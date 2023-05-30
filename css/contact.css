@@ -1,3 +1,66 @@
 .contact-active{
     border-bottom: 4px solid teal;
 }
+.color{
+    color: grey;
+}
+.ico-add{
+    font-size: 35px;
+    color: teal;
+}
+.container-fluid{
+    background-color: #180f37;
+}
+.side-one{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+.color-1{
+    color: rgb(146, 143, 143);
+
+}
+.color-1:hover{
+    color: white;
+    border-bottom: 2px solid white;
+}
+.foot-row{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.f-ico{
+    color: rgb(146, 143, 143);
+    font-size: 30px;
+    margin: 10px;
+}
+.f-ico:hover{
+    color: white;
+    
+}
+.round{
+    border-radius: 15px;
+    box-shadow: 1px 2px 20px 5px rgb(232, 231, 231);
+
+}
+.round-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.coder-row{
+    display: flex;
+    justify-content: center;
+    
+}
+@media(max-width:576px){
+    .side-one{
+        flex-wrap:wrap;
+        margin-top: 10px;
+    }
+    .coder-row{
+        flex-wrap: wrap;
+    }
+    
+}

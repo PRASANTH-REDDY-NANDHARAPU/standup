@@ -1,3 +1,160 @@
 .feedback-active{
     border-bottom: 4px solid teal;
 }
+.row-4{
+    margin-top: -30px;
+}
+.c-5-1{
+    margin-top: -115px;
+}
+.c-5-2{
+    margin-top: -20px;
+}
+.c-5-3{
+    margin-top: -40px;
+}
+.c-6-1{
+    margin-top: -20px;
+}
+.c-6-2{
+    margin-top: -60px;
+}
+.c-6-3{
+    margin-top: -20px;
+}
+.c-7-1{
+    margin-top:-20px;
+}
+.c-7-2{
+    margin-top: -95px;
+}
+.c-7-3{
+    margin-top:-55px;
+}
+.c-8-1{
+    margin-top:-20px;
+}
+.c-8-2{
+    margin-top:-115px ;
+}
+.c-8-3{
+    margin-top:-75px;
+}
+.c-9-1{
+    margin-top: -18px;
+}
+.c-9-2{
+    margin-top:-40px ;
+}
+.c-9-3{
+    margin-top:-80px ;
+    /* shas */
+}
+.c-10-1{
+    margin-top:-22px ;
+}
+.c-10-2{
+    margin-top:-20px ;
+}
+.c-10-3{
+    margin-top:-63px ;
+}
+.c-11-1{
+    margin-top:-50px ;
+}
+.c-11-2{
+    margin-top:-20px;
+}
+.c-11-3{
+    margin-top:-45px ;
+}
+.c-12-1{
+    margin-top:-15px ;
+}
+.c-12-2{
+    margin-top:-55px ;
+    text-transform: lowercase;
+}
+.c-12-3{
+    margin-top: -40px;
+}
+
+@media(min-width:576px){
+    .row-4{
+        margin-top:0px;
+    }
+    .c-5-1{
+        margin-top:0pxx;
+    }
+    .c-5-2{
+        margin-top:0px;
+    }
+    .c-5-3{
+        margin-top:0px;
+    }
+    .c-6-1{
+        margin-top:0px;
+    }
+    .c-6-2{
+        margin-top:0px;
+    }
+    .c-6-3{
+        margin-top:0px;
+    }
+    .c-7-1{
+        margin-top:0px;
+    }
+    .c-7-2{
+        margin-top:0px;
+    }
+    .c-7-3{
+        margin-top:0px;
+    }
+    .c-8-1{
+        margin-top:0px;
+    }
+    .c-8-2{
+        margin-top:0px ;
+    }
+    .c-8-3{
+        margin-top:0px;
+    }
+    .c-9-1{
+        margin-top:0px;
+    }
+    .c-9-2{
+        margin-top:0px;
+    }
+    .c-9-3{
+        margin-top:0px;
+        /* shas */
+    }
+    .c-10-1{
+        margin-top:0px;
+    }
+    .c-10-2{
+        margin-top:0px;
+    }
+    .c-10-3{
+        margin-top:0px;
+    }
+    .c-11-1{
+        margin-top:0px;
+    }
+    .c-11-2{
+        margin-top:0px;
+    }
+    .c-11-3{
+        margin-top:0px;
+    }
+    .c-12-1{
+        margin-top:0px;
+    }
+    .c-12-2{
+        margin-top:0px;
+        /* text-transform: lowercase; */
+    }
+    .c-12-3{
+        margin-top:0px;
+    }
+}
