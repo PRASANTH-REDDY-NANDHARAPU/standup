@@ -1,7 +1,7 @@
 .feedback-active{
     border-bottom: 4px solid teal;
 }
-.row-4{
+.c-4-1{
     margin-top: -30px;
 }
 .c-5-1{
@@ -48,7 +48,6 @@
 }
 .c-9-3{
     margin-top:-80px ;
-    /* shas */
 }
 .c-10-1{
     margin-top:-22px ;
@@ -79,82 +78,81 @@
     margin-top: -40px;
 }
 
-@media(min-width:576px){
-    .row-4{
-        margin-top:0px;
+@media (max-width: 576px) {
+    .c-4-1{
+        margin-top:10px;
     }
     .c-5-1{
-        margin-top:0pxx;
+        margin-top:10px;
     }
     .c-5-2{
-        margin-top:0px;
+        margin-top: 10px;
     }
     .c-5-3{
-        margin-top:0px;
+        margin-top: 10px;
     }
     .c-6-1{
-        margin-top:0px;
+        margin-top: 10px;
     }
     .c-6-2{
-        margin-top:0px;
+        margin-top: 10px;
     }
     .c-6-3{
-        margin-top:0px;
+        margin-top: 10px;
     }
     .c-7-1{
-        margin-top:0px;
+        margin-top:10px;
     }
     .c-7-2{
-        margin-top:0px;
+        margin-top: 10px;
     }
     .c-7-3{
-        margin-top:0px;
+        margin-top:10px;
     }
     .c-8-1{
-        margin-top:0px;
+        margin-top:10px;
     }
     .c-8-2{
-        margin-top:0px ;
+        margin-top:10px ;
     }
     .c-8-3{
-        margin-top:0px;
+        margin-top:10px;
     }
     .c-9-1{
-        margin-top:0px;
+        margin-top: 10px;
     }
     .c-9-2{
-        margin-top:0px;
+        margin-top:10px;
     }
     .c-9-3{
-        margin-top:0px;
-        /* shas */
+        margin-top:10px;
     }
     .c-10-1{
-        margin-top:0px;
+        margin-top:10px;
     }
     .c-10-2{
-        margin-top:0px;
+        margin-top:10px;
     }
     .c-10-3{
-        margin-top:0px;
+        margin-top:10px;
     }
     .c-11-1{
-        margin-top:0px;
+        margin-top:10px;
     }
     .c-11-2{
-        margin-top:0px;
+        margin-top:10px;
     }
     .c-11-3{
-        margin-top:0px;
+        margin-top:10px;
     }
     .c-12-1{
-        margin-top:0px;
+        margin-top:10px;
     }
     .c-12-2{
-        margin-top:0px;
-        /* text-transform: lowercase; */
+        margin-top:10px;
+        
     }
     .c-12-3{
-        margin-top:0px;
+        margin-top: 10px;
     }
 }
