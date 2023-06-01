@@ -3,6 +3,9 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.log-btn{
+  text-decoration: none;
+}
 .hero-margin{
   padding-top: 50px;
 }
@@ -27,9 +30,7 @@ body {
 .navbar-toggler {
   border: none;
 }
-/* .navbar-collapse{
-    border: 5px solid green;
-} */
+
 .container {
   background-color: #ffffff;
   padding: 10px;
@@ -340,6 +341,17 @@ body {
 }
 
 @media (max-width: 576px) {
+  
+  .nav-fields{
+    color: rgb(1, 152, 71);
+    width: fit-content;
+    font-weight: bolder;
+  }
+  .nav-fields:hover{
+    width: fit-content;
+    font-weight: bolder;
+  }
+ 
   .s-blue {
     padding: 3px 15px;
     border-radius: 50%;

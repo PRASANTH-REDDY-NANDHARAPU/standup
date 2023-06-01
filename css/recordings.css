@@ -1,0 +1,48 @@
+.reco-black{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 5px 10px;
+
+}
+.bi-house-fill{
+    font-size: 40px;
+    margin-left: 30px;
+}
+.reco-flex{
+    display: flex;
+    align-items: center;
+}
+.video-container{
+    height: 500px;
+    background-color: blanchedalmond;
+}
+.ytp-copy-link-icon{
+    display: none;
+}
+.list-group-item-action{
+   font-size: 12px;
+}
+p{
+    font-size: 15px;
+}
+
+
+@media(max-width:576px){
+    
+    .video-container{
+        height: 250px;
+        background-color: blanchedalmond;
+    }
+    .reco-black{
+        padding: 1px 2px;
+        margin-left: -30px;
+    }
+    .bi-house-fill{
+        font-size: 30px;
+        margin-left:0px;
+
+    }
+}

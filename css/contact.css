@@ -50,8 +50,10 @@
     border-radius: 15px;
 }
 .coder-row{
+    margin: 10px auto;
+    width: 720px;
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     
 }
 @media(max-width:576px){
@@ -59,8 +61,15 @@
         flex-wrap:wrap;
         margin-top: 10px;
     }
+    .top-m{
+        margin-top: 50px;
+    }
     .coder-row{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
         flex-wrap: wrap;
+        width: auto;
     }
     
 }
