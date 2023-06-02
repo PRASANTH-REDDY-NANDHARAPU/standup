@@ -182,7 +182,7 @@ function login312() {
     }else if (username == "sagar" && password == "sagar245"){
       open("../html/recordings.html");
     }else {
-      alert("YOU ARE NOT A MEMBER INSIDE BTC 😢");
+      open("../html/error.html");
     }
   }
   // -------------function for 313-----------
@@ -192,7 +192,7 @@ function login312() {
     if (username == "prasanth" && password == "prakarthik"){
       open("../html/recordings.html");
     }else{
-      alert("YOU ARE NOT A MEMBER OF STANDUP313😢")
+      open("../html/error.html")
     }
   }
   // -------------function for 313-----------
@@ -202,7 +202,7 @@ function login312() {
     if (username == "prasanth" && password == "prakarthik"){
       open("../html/recordings.html");
     }else{
-      alert("YOU ARE NOT A MEMBER OF STANDUP313😢")
+      open("../html/error.html")
     }
   }
   // -------------function for 314-----------
@@ -212,7 +212,7 @@ function login312() {
     if (username == "prasanth" && password == "prakarthik"){
       open("../html/recordings.html");
     }else{
-      alert("YOU ARE NOT A MEMBER OF STANDUP313😢")
+      open("../html/error.html")
     }
   }
   // -------------function for 315-----------
@@ -222,6 +222,6 @@ function login312() {
     if (username == "prasanth" && password == "prakarthik"){
       open("../html/recordings.html");
     }else{
-      alert("YOU ARE NOT A MEMBER OF STANDUP313😢")
+      open("../html/error.html")
     }
   }

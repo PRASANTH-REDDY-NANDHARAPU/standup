@@ -51,6 +51,9 @@
 .mob-vis{
   display: none;
 }
+.hov-no:hover{
+  cursor:not-allowed;
+}
 @media (max-width: 576px) {
   .break-1 {
     display: block;

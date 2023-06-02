@@ -1,0 +1,12 @@
+.error{
+    margin:30px auto;
+    width: 350px;
+    border-radius: 20px;
+  box-shadow: 1px 2px 20px 5px rgb(250, 192, 192);
+
+}
+.error-img{
+    width: 100%;
+    border-radius: 20px;
+
+}

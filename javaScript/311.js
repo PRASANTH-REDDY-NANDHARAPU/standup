@@ -1,4 +1,4 @@
-function login() {
+function login311() {
     console.log('working')
     let username = document.getElementById("floatingInputone").value;
     let password = document.getElementById("floatingPasswordone").value;
@@ -222,7 +222,7 @@ function login() {
         open("../html/recordings.html");
 
     }else {
-        alert("YOU ARE NOT A MEMBER INSIDE standup 😢");
+        open("../html/error.html");
     }
 }
 
