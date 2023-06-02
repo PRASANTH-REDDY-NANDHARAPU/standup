@@ -181,6 +181,9 @@ function login312() {
       open("../html/recordings.html");
     }else if (username == "sagar" && password == "sagar245"){
       open("../html/recordings.html");
+    }
+    else if (username == "prashanthi" && password == "prashanthi25"){
+      open("../html/recordings.html");
     }else {
       open("../html/error.html");
     }
