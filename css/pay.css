@@ -53,8 +53,23 @@ body {
     flex-wrap: wrap;
   }
   .tech-img {
+    height: 40px;
+    width: 60px;
+    object-fit: contain;
+  }
+  .tech-img-html{
     height: 50px;
-    width: 50px;
+    width: 60px;
+    object-fit: contain;
+  }
+  .tech-img-css{
+    height: 50px;
+    width: 60px;
+    object-fit: contain;
+  }
+  .mar-l{
+    margin-left: 15px;
+
   }
   .days {
     width: 100%;
@@ -65,13 +80,15 @@ body {
   }
   .tech-img-ceo {
     width: 130px;
-    height: 150px;
-    border-radius: 15px;
+    height: 120px;
+    object-fit: cover;
+
+    border-radius: 6px;
   }
   .tech-box-train{
     width: auto;
     text-align: left;
-    padding-left: 10px;
+    padding-left: 15px;
   }
   .font-s{
     font-size:15px;
