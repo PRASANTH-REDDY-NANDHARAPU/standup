@@ -1,0 +1,78 @@
+body {
+  margin: 5px;
+}
+.more-content {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+
+  text-align: center;
+}
+.pay-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 12px 74px;
+  background-color: purple;
+  color: white;
+  font-weight: bolder;
+}
+.days {
+  width: 50%;
+
+  margin: 20px;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 20px 5px rgb(232, 231, 231);
+}
+.tech-img {
+  height: 90px;
+  width: 90px;
+}
+.tech-row {
+  display: flex;
+  justify-content: space-between;
+}
+.tech-img-ceo {
+  width: 180px;
+  height: 180px;
+  border-radius: 15px;
+}
+.tech-box-train {
+  width: 300px;
+  text-align: left;
+}
+.tain-m{
+    margin-top: 25px;
+}
+
+@media (max-width: 576px) {
+  .more-content {
+    width: auto;
+    margin: 5px;
+    flex-wrap: wrap;
+  }
+  .tech-img {
+    height: 30px;
+    width: 30px;
+  }
+  .days {
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid grey;
+  }
+  .tech-img-ceo {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+  }
+  .tech-box-train{
+    width: auto;
+    text-align: left;
+  }
+  .font-s{
+    font-size:15px;
+  }
+}

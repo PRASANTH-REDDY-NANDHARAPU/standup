@@ -28,6 +28,23 @@
 p{
     font-size: 15px;
 }
+.position-relate{
+    position:relative;
+}
+.layer{
+    position: absolute;
+    background-color: white;
+    opacity: calc(0%);
+    height: 70px;
+    width: 100%;
+    top:0;
+}
+.sessions{
+    display: none;
+}
+.tasks{
+    display: none;
+}
 
 
 @media(max-width:576px){

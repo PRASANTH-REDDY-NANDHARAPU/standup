@@ -51,8 +51,11 @@
 .mob-vis{
   display: none;
 }
+.hov-no{
+  opacity: calc(30%);
+}
 .hov-no:hover{
-  cursor:not-allowed;
+  cursor: not-allowed;
 }
 @media (max-width: 576px) {
   .break-1 {

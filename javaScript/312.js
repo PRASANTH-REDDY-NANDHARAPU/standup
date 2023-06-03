@@ -228,3 +228,23 @@ function login312() {
       open("../html/error.html")
     }
   }
+
+function sessions(){
+  let sessionContainer = document.getElementById('session')
+  let tasksContainer = document.getElementById('tasks')
+  console.log('deleting')
+  tasksContainer.classList.add('tasks')
+  sessionContainer.classList.remove('sessions')
+}
+function tasks(){
+  let sessionContainer = document.getElementById('session')
+  let tasksContainer = document.getElementById('tasks')
+  console.log('deleting')
+
+  sessionContainer.classList.add('sessions')
+  tasksContainer.classList.remove('tasks')
+
+  
+  
+
+}
