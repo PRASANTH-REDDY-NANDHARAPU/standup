@@ -53,8 +53,8 @@ body {
     flex-wrap: wrap;
   }
   .tech-img {
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
   }
   .days {
     width: 100%;
@@ -64,13 +64,14 @@ body {
     border: 2px solid grey;
   }
   .tech-img-ceo {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 150px;
     border-radius: 15px;
   }
   .tech-box-train{
     width: auto;
     text-align: left;
+    padding-left: 10px;
   }
   .font-s{
     font-size:15px;
