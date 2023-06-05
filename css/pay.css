@@ -17,7 +17,7 @@ body {
   color: white;
   font-weight: bolder;
 }
-.days {
+.days{
   width: 50%;
 
   margin: 20px;
@@ -44,6 +44,20 @@ body {
 }
 .tain-m{
     margin-top: 25px;
+}
+.tech-img-html{
+  height: 90px;
+  width: 90px;
+  /* object-fit: contain; */
+}
+.tech-img-css{
+  height: 90px;
+  width: 90px;
+  /* object-fit: contain; */
+}
+.mar-l{
+  margin-left:0px;
+
 }
 
 @media (max-width: 576px) {
