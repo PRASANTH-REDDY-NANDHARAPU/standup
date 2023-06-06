@@ -1,0 +1,84 @@
+.task-row {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+.task-content {
+  width: 800px;
+  height: 600px;
+  padding: 30px;
+  margin-left: 20px;
+  border-radius: 15px;
+  overflow-y: auto;
+  box-shadow: 1px 2px 20px 5px rgb(232, 231, 231);
+}
+.task-names {
+  width: 350px;
+  padding: 30px;
+  height: 600px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 20px 5px rgb(232, 231, 231);
+  overflow-y: auto;
+}
+.act-color {
+  background-color: blue;
+}
+.task-back {
+  text-decoration: none;
+  padding: 15px 20px;
+  margin: 10px;
+  font-weight: bolder;
+  color: rgb(10, 174, 244);
+  box-shadow: 1px 2px 20px 5px rgb(232, 231, 231);
+}
+.output-container{
+    width: 100%;
+    height: 350px;
+    padding: 20px;
+    border: 2px solid grey;
+    overflow-y: auto;
+
+}
+.task-img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.task-color{
+    color: teal;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+@media (max-width: 576px) {
+  .task-row {
+    width: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 5px;
+    flex-wrap: wrap-reverse;
+  }
+  .task-content {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    margin-left: 0px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin: 10px;
+  }
+  .task-names {
+    width:100%;
+    padding: 10px;
+    margin: 10px;
+    height: 400px;
+    border-radius: 5px;
+    border: 1px solid grey;
+  }
+  .output-container{
+    height: 200px;
+  }
+}
