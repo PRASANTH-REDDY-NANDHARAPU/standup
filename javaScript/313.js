@@ -4,57 +4,31 @@ function login313() {
   let password = document.getElementById("floatingPasswordThree").value;
   if (username == "prasanth" && password == "prakarthik") {
     open("../html/recordings313.html");
-  } else if (username == "venkatsai" && password == "venkat24") {
+  }else if (username == "venkatsai" && password == "venkat24") {
     open("../html/recordings313.html");
-  } else if (username == "kavya" && password == "kavya32") {
+  }else if (username == "kavya" && password == "kavya32") {
     open("../html/recordings313.html");
-  } else if (username == "eswar" && password == "eswar24") {
+  }else if (username == "eswar" && password == "eswar24") {
     open("../html/recordings313.html");
-  } else if (username == "narasimha" && password == "narasimha27") {
+  }else if (username == "narasimha" && password == "narasimha27") {
     open("../html/recordings313.html");
-  } else if (username == "kesava" && password == "kesava99") {
+  }else if (username == "kesava" && password == "kesava99") {
     open("../html/recordings313.html");
-  } else if (username == "lahari" && password == "lahari94") {
+  }else if (username == "lahari" && password == "lahari94") {
     open("../html/recordings313.html");
-  } else if (username == "pavan" && password == "pavan77") {
+  }else if (username == "pavan" && password == "pavan77") {
     open("../html/recordings313.html");
-  } else if (username == "joshita" && password == "joshita22") {
+  }else if (username == "joshita" && password == "joshita22") {
     open("../html/recordings313.html");
-  } else if (username == "kamalesh" && password == "kamalesh1000") {
+  }else if (username == "kamalesh" && password == "kamalesh1000") {
     open("../html/recordings313.html");
-  } else if (username == "purushotham" && password == "purushotham44") {
+  }else if (username == "purushotham" && password == "purushotham44") {
     open("../html/recordings313.html");
-  } else if (username == "vpriya" && password == "vpriya88") {
+  }else if (username == "vpriya" && password == "vpriya88") {
     open("../html/recordings313.html");
-  } else if (username == "tharun" && password == "tharunkumar") {
+  }else if (username == "tharun" && password == "tharunkumar") {
     open("../html/recordings313.html");
-  } else if (username == "venkatsai" && password == "venkat24") {
-    open("../html/recordings313.html");
-  } else if (username == "venkatsai" && password == "venkat24") {
-    open("../html/recordings313.html");
-  } else if (username == "venkatsai" && password == "venkat24") {
-    open("../html/recordings313.html");
-  } else if (username == "venkatsai" && password == "venkat24") {
-    open("../html/recordings313.html");
-  } else if (username == "venkatsai" && password == "venkat24") {
-    open("../html/recordings313.html");
-  } else if (username == "venkatsai" && password == "venkat24") {
-    open("../html/recordings313.html");
-  } else if (username == "venkatsai" && password == "venkat24") {
-    open("../html/recordings313.html");
-  } else if (username == "venkatsai" && password == "venkat24") {
-    open("../html/recordings313.html");
-  } else if (username == "venkatsai" && password == "venkat24") {
-    open("../html/recordings313.html");
-  } else if (username == "venkatsai" && password == "venkat24") {
-    open("../html/recordings313.html");
-  } else if (username == "venkatsai" && password == "venkat24") {
-    open("../html/recordings313.html");
-  } else if (username == "venkatsai" && password == "venkat24") {
-    open("../html/recordings313.html");
-  } else if (username == "venkatsai" && password == "venkat24") {
-    open("../html/recordings313.html");
-  } else {
+  }  else {
     open("../html/error.html");
   }
 }
