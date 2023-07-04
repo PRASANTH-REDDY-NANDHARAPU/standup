@@ -28,7 +28,27 @@ function login313() {
     open("../html/recordings313.html");
   }else if (username == "tharun" && password == "tharunkumar") {
     open("../html/recordings313.html");
-  }  else {
+  }else if (username == "sadiya" && password == "sadiya11") {
+    open("../html/recordings313.html");
+  } else if (username == "bharani" && password == "bharani12") {
+    open("../html/recordings313.html");
+  } else if (username == "omkar" && password == "omkar55") {
+    open("../html/recordings313.html");
+  } else if (username == "likhitha" && password == "likhitha20") {
+    open("../html/recordings313.html");
+  } else if (username == "rishitha" && password == "rishitha37") {
+    open("../html/recordings313.html");
+  } else if (username == "nandini" && password == "nandini73") {
+    open("../html/recordings313.html");
+  } else if (username == "theerthaveni" && password == "theerthaveni66") {
+    open("../html/recordings313.html");
+  } else if (username == "afreen" && password == "afreen11") {
+    open("../html/recordings313.html");
+  } else if (username == "dineswari" && password == "dineswari15") {
+    open("../html/recordings313.html");
+  }else if (username == "sairamya" && password == "sairamya71") {
+    open("../html/recordings313.html");
+  }    else {
     open("../html/error.html");
   }
 }
