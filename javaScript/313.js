@@ -140,7 +140,7 @@ function login313() {
     open("../html/recordings313.html");
   }else if (username == "deepika" && password == "deepika44") {
     open("../html/recordings313.html");
-  }else if (username == "manasa" && password == "manasa") {
+  }else if (username == "manasa" && password == "manasa23") {
     open("../html/recordings313.html");
   }else if (username == "kiran" && password == "kiranreddy") {
     open("../html/recordings313.html");
