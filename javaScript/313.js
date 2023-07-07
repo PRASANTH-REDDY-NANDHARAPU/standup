@@ -72,7 +72,7 @@ function login313() {
     open("../html/recordings313.html");
   } else if (username == "tharun" && password == "tharun22") {
     open("../html/recordings313.html");
-  } else if (username == "tejaswi" && password == "tejaswi") {
+  } else if (username == "tejaswi" && password == "tejaswi14") {
     open("../html/recordings313.html");
   } else if (username == "swapna" && password == "swapna11") {
     open("../html/recordings313.html");
