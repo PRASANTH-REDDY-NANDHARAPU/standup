@@ -2,7 +2,7 @@
 function login313() {
   let username = document.getElementById("floatingInputThree").value;
   let password = document.getElementById("floatingPasswordThree").value;
-  if (username == "prassu" && password == "prakarthik") {
+  if (username == "prasanth" && password == "prasanth") {
     open("../html/recordings313.html");
   }else if (username == "venkatsai" && password == "venkat24") {
     open("../html/recordings313.html");
@@ -128,7 +128,23 @@ function login313() {
     open("../html/recordings313.html");
   } else if (username == "gnana" && password == "gnana11") {
     open("../html/recordings313.html");
-  } else {
+  } else if (username == "krithika" && password == "krithika93") {
+    open("../html/recordings313.html");
+  }else if (username == "pavan" && password == "pavan12") {
+    open("../html/recordings313.html");
+  }else if (username == "dasaradhareddy" && password == "reddy34") {
+    open("../html/recordings313.html");
+  }else if (username == "anil" && password == "anil45") {
+    open("../html/recordings313.html");
+  }else if (username == "jhansi" && password == "jhansiakka") {
+    open("../html/recordings313.html");
+  }else if (username == "deepika" && password == "deepika44") {
+    open("../html/recordings313.html");
+  }else if (username == "manasa" && password == "manasa") {
+    open("../html/recordings313.html");
+  }else if (username == "kiran" && password == "kiranreddy") {
+    open("../html/recordings313.html");
+  }else {
     open("../html/error.html");
   }
 }
