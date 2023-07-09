@@ -144,6 +144,22 @@ function login313() {
     open("../html/recordings313.html");
   }else if (username == "kiran" && password == "kiranreddy") {
     open("../html/recordings313.html");
+  }else if (username == "deepika" && password == "deepika20") {
+    open("../html/recordings313.html");
+  }else if (username == "asritha" && password == "asritha90") {
+    open("../html/recordings313.html");
+  }else if (username == "manikanta" && password == "manikanta17") {
+    open("../html/recordings313.html");
+  }else if (username == "bhavana" && password == "bhavana23") {
+    open("../html/recordings313.html");
+  }else if (username == "sireesha" && password == "sireesha98") {
+    open("../html/recordings313.html");
+  }else if (username == "meghana" && password == "meghana32") {
+    open("../html/recordings313.html");
+  }else if (username == "kiran" && password == "kiran20") {
+    open("../html/recordings313.html");
+  }else if (username == "bhargavi" && password == "bhargavi95") {
+    open("../html/recordings313.html");
   }else {
     open("../html/error.html");
   }
