@@ -160,6 +160,8 @@ function login313() {
     open("../html/recordings313.html");
   }else if (username == "bhargavi" && password == "bhargavi95") {
     open("../html/recordings313.html");
+  }else if (username == "bindu" && password == "bindu21") {
+    open("../html/recordings313.html");
   }else {
     open("../html/error.html");
   }
