@@ -51,7 +51,21 @@
 .task-color{
     color: teal;
     font-weight: bolder;
-    text-decoration: underline;
+}
+.submit-flex{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.assign-submit{
+  font-size: 17px;
+  border-radius: 8px;
+  background-color:rgb(8, 50, 234);
+  color: white;
+  font-weight: bolder;
+  padding: 5px 16px;
+  border: none;
+  /* margin-top: -5px; */
 }
 @media (max-width: 576px) {
   .task-row {

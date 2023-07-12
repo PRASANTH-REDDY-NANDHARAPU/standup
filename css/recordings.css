@@ -18,6 +18,7 @@
 .video-container{
     height: 500px;
     background-color: blanchedalmond;
+    object-fit: cover;
 }
 .ytp-copy-link-icon{
     display: none;
