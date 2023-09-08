@@ -1,623 +1,608 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Recordings</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recordings</title>
 
-        <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 
 
-        <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/login.css">
-        <link rel="stylesheet" href="../css/recordings.css">
-        <link rel="stylesheet" href="../css/road.css">
-    </head>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/recordings.css">
+    <link rel="stylesheet" href="../css/road.css">
+</head>
 
-    <body>
-        <nav class="navbar navbar-expand-lg  con">
-            <div class="container d-flex align-items-center con-static">
-                <a class="navbar-brand brand-name" href="#">
-                    <span class="s-blue">S</span>t<span class="n-orange">N</span>
-                    <span class="up-blue">up</span>
+<body>
+    <nav class="navbar navbar-expand-lg  con">
+        <div class="container d-flex align-items-center con-static">
+            <a class="navbar-brand brand-name" href="#">
+                <span class="s-blue">S</span>t<span class="n-orange">N</span><span class="up-blue">up</span>
+            </a>
+            <div class="reco-flex">
+                <Button class="reco-black mx-1 record-color" onclick="sessions()">Sessions</Button>
+                <Button class="reco-black mx-1" onclick="tasks()">Tasks</Button>
+
+                <a href="../index.html">
+                    <i class="bi bi-house-fill"></i>
                 </a>
-                <div class="reco-flex">
-                    <Button class="reco-black mx-1 record-color" onclick="sessions()">Sessions</Button>
-                    <Button class="reco-black mx-1" onclick="tasks()">Tasks</Button>
-
-                    <a href="../index.html">
-                        <i class="bi bi-house-fill"></i>
-                    </a>
-                </div>
             </div>
         </div>
-    </body>
-</html></nav><div class='' id="session">
-<img src="../images/recordings.jpeg" alt="" class="degree">
-<h1 class="fw-bolder text-center">Welcome Back To The
-    <span class="blue">ST<span class="tomato">AND</span>UP</span>
-    Recordings</h1>
+    </nav>
+    <div class='' id="session">
+        <img src="../images/recordings.jpeg" alt="" class="degree">
+        <h1 class="fw-bolder text-center">Welcome Back To The
+            <span class="blue">ST<span class="tomato">AND</span>UP</span>
+            Recordings
+        </h1>
+    </div>
 
-<!-- -------------------nav bar is completed--------------------- -->
-<div class="row course-row">
-    <div class="col-md-8">
-        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example scroll-opt scroll-p" tabindex="0">
-            <div class="concepts " id="list-item-1">
-                <h4 style="color:teal;font-weight:600;">(INTRODUCTION TO
-                    <span class="blue">ST<span class="tomato">AND</span>UP</span>)SESSION-1</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/1ENdlmr-n6-SUmXyM1IZB-tGIPsOswrhG/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
+    <!-- -------------------nav bar is completed--------------------- -->
+    <div class="row course-row">
+        <div class="col-md-8">
+            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true"
+                class="scrollspy-example scroll-opt scroll-p" tabindex="0">
+                <div class="concepts " id="list-item-1">
+                    <h4 style="color:teal;font-weight:600;">(INTRODUCTION TO
+                        <span class="blue">ST<span class="tomato">AND</span>UP</span>)SESSION-1
+                    </h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1ENdlmr-n6-SUmXyM1IZB-tGIPsOswrhG/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
+
+                    </div>
+
+                    <br>
+
+                    <p>VS code download:
+                        <a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a>
+                    </p>
+                    <p>Favicon Generator:
+                        <a href="https://favicon.io/">https://favicon.io/</a>
+                    </p>
+                    <p>CODE REFERENCE:
+                        <a
+                            href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-1.git">https://github.com/PRASANTH-REDDY-NANDHARA<br>PU/stnup-day-1.git</a>
+                    </p>
+                </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+
+                <!-- ----------html css completed-------- -->
+                <div class="concepts" id="list-item-2">
+                    <h4 style="color:teal;font-weight:600;">(Heading elements,video,audio,picture)SESSION-2</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1W16yDHUe53B6GKqWjAcJXm7jlgS_AGzR/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
+
+
+                    </div>
+                    <br>
+                    <p>CODE REFERENCE:
+                        <a
+                            href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-2.git">https://github.com/PRASANTH-REDDY-NANDHARA<br>PU/stnup-day-2.git</a>
+                    </p>
+                </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <!-- ---------bootstrap and sass-------- -->
+                <div class="concepts" id="list-item-3">
+                    <h4 style="color:teal;font-weight:600;">(Git hub account,vercel,netlify,deploy first
+                        app)SESSION-3</h4>
+                    <div class="video-container position-relate">
+                        <div class="layer"></div>
+
+                    </div>
+                    <br>
+                    <p>VERCEL WEB HOSTING PLATFORM:
+                        <a href="https://vercel.com/">https://vercel.com/</a>
+                    </p>
+                    <p>NETLIFY WEB HOSTING PLATFORM:
+                        <a href="https://www.netlify.com/">https://www.netlify.com/</a>
+                    </p>
+                    <p>CODE REFERENCE:
+                        <a
+                            href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-3.git">https://github.com/PRASANTH-REDDY-NANDHARA<br>PU/stnup-day-3.git</a>
+                    </p>
+                </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+
+                <!-- ----------------------GIT AND GIT HUB COMPLETD--------- -->
+                <div class="concepts" id="list-item-4">
+                    <h4 style="color:teal;font-weight:600;">(Input tags,validations,navigating pages)SESSION-4</h4>
+
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1vsXPS0bUwpQIC1TSzV3tsPrMksRO08J_/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
+
+                    </div><br>
+                    <p>CODE REFERENCE:
+                        <a
+                            href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-5.git">https://github.com/PRASANTH-REDDY-NANDHARA<br>PU/stnup-day-5.git</a>
+                    </p>
+                </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <!-- ----------------------GIT AND GIT HUB COMPLETD--------- -->
+                <div class="concepts" id="list-item-5">
+                    <h4 style="color:teal;font-weight:600;">(introduction to css,types of css)SESSION-5</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/125MWRYYoWUjasCfC1Wy_b_m052EBHKNZ/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
+
+                    </div><br>
+                    <p>CODE REFERENCE:
+                        <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-5.git">
+                            https://github.com/PRASANTH-REDDY-NANDHARA<br>PU/stnup-day-5.git</a>
+                    </p>
+                </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+
+                <div class="concepts" id="list-item-6">
+                    <h4 style="color:teal;font-weight:600;">(text properties,google fonts,chrome
+                        extensions)SESSION-6</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1A7CBB_gKlH57H79HIJPgPwJGqs9Wbg-8/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
+
+                    </div>
+                    <br>
+                    <p>GOOGLE FONTS:
+                        <a href="https://fonts.google.com/">https://fonts.google.com/</a>
+                    </p>
+                    <p>CODE REFERENCE:
+                        <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-6.git">
+                            https://github.com/PRASANTH-REDDY-NANDHARA<br>PU/stnup-day-6.git</a>
+                    </p>
+                </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+
+                <div class="concepts" id="list-item-7">
+                    <h4 style="color:teal;font-weight:600;">(CSS BOX MODEL)SESSION-7</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1jHqwR09U8ngpNRkdjPes0MfCVKcB3s0T/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
+
+                    </div>
+                    <br>
+                    <p>CODE REFERENCE:
+                        <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-7.git">
+                            https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-7.git</a>
+                    </p>
+                </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <div class="concepts" id="list-item-8">
+                    <h4 style="color:teal;font-weight:600;">(flex box day-1,shimmer ui,cloning-cards)SESSION-8</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1z9IY5Iq8Al9kPnEyL1F8iZc1-QzcYd-P/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
+
+                    </div>
+                    <br>
+                    <p>CODE REFERENCE:
+                        <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-8.git">
+                            https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-8.git</a>
+                    </p>
+                </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <div class="concepts" id="list-item-9">
+                    <h4 style="color:teal;font-weight:600;">(flex box day-2,instagram reel)SESSION-9</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1VJL00afM0TS6fz5kwMByUPWjvOXaXIlH/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
+
+                    </div>
+                    <br>
+                    <p>CODE REFERENCE:
+                        <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-9.git">
+                            https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-9.git</a>
+                    </p>
+                </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <div class="concepts" id="list-item-10">
+                    <h4 style="color:teal;font-weight:600;">(static,fixed,sticky positions)SESSION-10</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1pxVI7nY7PvwQXxOriWuHylqO_BhJOnDj/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
+
+                    </div>
+                    <br>
+                    <p>CODE REFERENCE:
+                        <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-10.git">
+                            https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-10.git</a>
+                    </p>
+                </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <!-- ----------------sql started----------- -->
+                <div class="concepts" id="list-item-11">
+                    <h4 style="color:teal;font-weight:600;">(relative,absolute positions)SESSION-11</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1wNwzlD-cnI2mQKAJa1fJoCsTlExet_vV/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
+
+                    </div>
+                    <br>
+                    <p>CODE REFERENCE:
+                        <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-11.git">
+                            https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-11.git</a>
+                    </p>
+                </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <div class="concepts" id="list-item-12">
+                    <h4 style="color:teal;font-weight:600;">(css media queries day-1)SESSION-12</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1cAI8yym-xJQEdmCDj_gFU1QCBalfAuQy/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
+
+                    </div>
+                    <br>
+                    <p>GRADIENT GENERATOR:
+                        <a href="https://cssgradient.io/">https://cssgradient.io/</a>
+                    </p>
+                    <p>HD IMAGES:
+                        <a href="https://unsplash.com/">https://unsplash.com/</a>
+                    </p>
+                    <p>CODE REFERENCE:
+                        <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-12.git">
+                            https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-12.git</a>
+                    </p>
+                </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <div class="concepts" id="list-item-13">
+                    <h4 style="color:teal;font-weight:600;">(css media queries day-2)SESSION-13</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/133SiPE0_jIGJyiHS-tT9WzJUCb4TrX5K/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
+
+                    </div>
+                    <br>
+                    <p>IDEA GENERATOR:
+                        <a href="https://dribbble.com">https://dribbble.com</a>
+                    </p>
+                    <p>CODE REFERENCE:
+                        <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-13.git">
+                            https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-13.git</a>
+                    </p>
+                </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <div class="concepts" id="list-item-14">
+                    <h4 style="color:teal;font-weight:600;">(css login forms)SESSION-14</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1BowOn-ht0LQxviXKEOPfgrbW5WHfd5-I/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
+
+                    </div>
+                    <br>
+
+                    <p>BLOG PAGE:
+                        <a href="https://elements-iota.vercel.app/">https://elements-iota.vercel.app/</a>
+                    </p>
+                    <p>CODE REFERENCE:
+                        <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-14.git">
+                            https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-14.git</a>
+                    </p>
+                </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <div class="concepts" id="list-item-15">
+                    <h4 style="color:teal;font-weight:600;">(css pseudo elements)SESSION-15</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1eEszEmquHPwmsbQckIOGXBGCjLp797N1/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
+
+                    </div>
+                    <br>
+                    <p>CODE REFERENCE:
+                        <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-15.git">
+                            https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-15.git</a>
+                    </p>
+                </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <div class="concepts" id="list-item-16">
+                    <h4 style="color:teal;font-weight:600;">(css pseudo classes part-1)SESSION-16</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1mtx3FwZjfEkRQu1LTGP8NDgvtC9M3GaC/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
+
+                    </div>
+                    <br>
+                    <p>CODE REFERENCE:
+                        <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-16.git">
+                            https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-16.git</a>
+                    </p>
+                </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <div class="concepts" id="list-item-17">
+                    <h4 style="color:teal;font-weight:600;">(css pseudo classes part-2,login)SESSION-17</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1aYkXdisHBlSSyAkvZWywl16FHF2Ujkkd/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
+
+                    </div>
+                    <br>
+                    <p>CODE REFERENCE:
+                        <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-17.git">
+                            https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-17.git</a>
+                    </p>
+                </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <div class="concepts" id="list-item-18">
+                    <h4 style="color:teal;font-weight:600;">(css animations)SESSION-18</h4>
+                    <div class="video-container position-relate">
+
+                        <iframe src="https://drive.google.com/file/d/1nUILeedtT89r72SEwAunKljUmz5DzgUa/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
+
+                    </div>
+                </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <div class="concepts" id="list-item-19">
+                    <h4 style="color:teal;font-weight:600;">(bootstrap CDN & download method)SESSION-19</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1LVCsWqiR_7JrBL_PcmcDVBhHgv--6zUW/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
+
+                    </div>
 
                 </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <div class="concepts" id="list-item-20">
+                    <h4 style="color:teal;font-weight:600;">(bootstrap npm method)SESSION-20</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/147BWov7lcCE8njMQWS2oZgwtS4tk6GTW/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
 
-                <br>
-
-                <p>VS code download:
-                    <a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a>
-                </p>
-                <p>Favicon Generator:
-                    <a href="https://favicon.io/">https://favicon.io/</a>
-                </p>
-                <p>CODE REFERENCE:
-                    <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-1.git">https://github.com/PRASANTH-REDDY-NANDHARA<br>PU/stnup-day-1.git</a>
-                </p>
-            </div>
-            <hr
-            style="border:3px solid rgb(1, 0, 3);">
-
-            <!-- ----------html css completed-------- -->
-            <div class="concepts" id="list-item-2">
-                <h4 style="color:teal;font-weight:600;">(Heading elements,video,audio,picture)SESSION-2</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/1W16yDHUe53B6GKqWjAcJXm7jlgS_AGzR/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
+                    </div>
 
                 </div>
-                <br>
-                <p>CODE REFERENCE:
-                    <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-2.git">https://github.com/PRASANTH-REDDY-NANDHARA<br>PU/stnup-day-2.git</a>
-                </p>
-            </div>
-            <hr
-            style="border:3px solid rgb(1, 0, 3);">
-            <!-- ---------bootstrap and sass-------- -->
-            <div class="concepts" id="list-item-3">
-                <h4 style="color:teal;font-weight:600;">(Git hub account,vercel,netlify,deploy first
-                                                app)SESSION-3</h4>
-                <div class="video-container position-relate">
-                    <div class="layer"></div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <div class="concepts" id="list-item-21">
+                    <h4 style="color:teal;font-weight:600;">(bootstrap classes)SESSION-21</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1QELnIZ54r_xjbyoR7hV1q1y3TMMA9dkU/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
+
+                    </div>
 
                 </div>
-                <br>
-                <p>VERCEL WEB HOSTING PLATFORM:
-                    <a href="https://vercel.com/">https://vercel.com/</a>
-                </p>
-                <p>NETLIFY WEB HOSTING PLATFORM:
-                    <a href="https://www.netlify.com/">https://www.netlify.com/</a>
-                </p>
-                <p>CODE REFERENCE:
-                    <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-3.git">https://github.com/PRASANTH-REDDY-NANDHARA<br>PU/stnup-day-3.git</a>
-                </p>
-            </div>
-            <hr
-            style="border:3px solid rgb(1, 0, 3);">
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <div class="concepts" id="list-item-22">
+                    <h4 style="color:teal;font-weight:600;">(bootstrap card & grid system)SESSION-22</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1InEWJ4PuZELff1uYWUvOWVmHwAKOuS6Z/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
 
-            <!-- ----------------------GIT AND GIT HUB COMPLETD--------- -->
-            <div class="concepts" id="list-item-4">
-                <h4 style="color:teal;font-weight:600;">(Input tags,validations,navigating pages)SESSION-4</h4>
-
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/1vsXPS0bUwpQIC1TSzV3tsPrMksRO08J_/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
-                </div><br>
-                <p>CODE REFERENCE:
-                    <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-5.git">https://github.com/PRASANTH-REDDY-NANDHARA<br>PU/stnup-day-5.git</a>
-                </p>
-            </div>
-            <hr
-            style="border:3px solid rgb(1, 0, 3);">
-            <!-- ----------------------GIT AND GIT HUB COMPLETD--------- -->
-            <div class="concepts" id="list-item-5">
-                <h4 style="color:teal;font-weight:600;">(introduction to css,types of css)SESSION-5</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/125MWRYYoWUjasCfC1Wy_b_m052EBHKNZ/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
-                </div><br>
-                <p>CODE REFERENCE:
-                    <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-5.git">
-                        https://github.com/PRASANTH-REDDY-NANDHARA<br>PU/stnup-day-5.git</a>
-                </p>
-            </div>
-            <hr style="border:3px solid rgb(1, 0, 3);">
-
-            <div class="concepts" id="list-item-6">
-                <h4 style="color:teal;font-weight:600;">(text properties,google fonts,chrome
-                                                extensions)SESSION-6</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/1A7CBB_gKlH57H79HIJPgPwJGqs9Wbg-8/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
+                    </div>
                 </div>
-                <br>
-                <p>GOOGLE FONTS:
-                    <a href="https://fonts.google.com/">https://fonts.google.com/</a>
-                </p>
-                <p>CODE REFERENCE:
-                    <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-6.git">
-                        https://github.com/PRASANTH-REDDY-NANDHARA<br>PU/stnup-day-6.git</a>
-                </p>
-            </div>
-            <hr style="border:3px solid rgb(1, 0, 3);">
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <div class="concepts" id="list-item-23">
+                    <h4 style="color:teal;font-weight:600;">(sass,modal,navbar,forms)SESSION-23</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1D6bhKzgeVD1ndMoBN1It20YKCW8B_BYA/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
 
-            <div class="concepts" id="list-item-7">
-                <h4 style="color:teal;font-weight:600;">(CSS BOX MODEL)SESSION-7</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/1jHqwR09U8ngpNRkdjPes0MfCVKcB3s0T/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
+                    </div>
                 </div>
-                <br>
-                <p>CODE REFERENCE:
-                    <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-7.git">
-                        https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-7.git</a>
-                </p>
-            </div>
-            <hr style="border:3px solid rgb(1, 0, 3);">
-            <div class="concepts" id="list-item-8">
-                <h4 style="color:teal;font-weight:600;">(flex box day-1,shimmer ui,cloning-cards)SESSION-8</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/1z9IY5Iq8Al9kPnEyL1F8iZc1-QzcYd-P/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <div class="concepts" id="list-item-24">
+                    <h4 style="color:teal;font-weight:600;">(scrollspy,carousel,offcanvas)SESSION-24</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1dfKyg6QaLgwbGLMFu2MSsaGhISeMpXOf/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
 
+                    </div>
                 </div>
-                <br>
-                <p>CODE REFERENCE:
-                    <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-8.git">
-                        https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-8.git</a>
-                </p>
-            </div>
-            <hr style="border:3px solid rgb(1, 0, 3);">
-            <div class="concepts" id="list-item-9">
-                <h4 style="color:teal;font-weight:600;">(flex box day-2,instagram reel)SESSION-9</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/1VJL00afM0TS6fz5kwMByUPWjvOXaXIlH/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <div class="concepts" id="list-item-25">
+                    <h4 style="color:teal;font-weight:600;">(introduction to git)SESSION-25</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1BVNWPyodSEKuYHsTCQUT3XwRwhD17k5L/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
 
-                </div>
-                <br>
-                <p>CODE REFERENCE:
-                    <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-9.git">
-                        https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-9.git</a>
-                </p>
-            </div>
-            <hr style="border:3px solid rgb(1, 0, 3);">
-            <div class="concepts" id="list-item-10">
-                <h4 style="color:teal;font-weight:600;">(static,fixed,sticky positions)SESSION-10</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/1pxVI7nY7PvwQXxOriWuHylqO_BhJOnDj/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
-                </div>
-                <br>
-                <p>CODE REFERENCE:
-                    <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-10.git">
-                        https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-10.git</a>
-                </p>
-            </div>
-            <hr
-            style="border:3px solid rgb(1, 0, 3);">
-            <!-- ----------------sql started----------- -->
-            <div class="concepts" id="list-item-11">
-                <h4 style="color:teal;font-weight:600;">(relative,absolute positions)SESSION-11</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/1wNwzlD-cnI2mQKAJa1fJoCsTlExet_vV/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
-                </div>
-                <br>
-                <p>CODE REFERENCE:
-                    <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-11.git">
-                        https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-11.git</a>
-                </p>
-            </div>
-            <hr style="border:3px solid rgb(1, 0, 3);">
-            <div class="concepts" id="list-item-12">
-                <h4 style="color:teal;font-weight:600;">(css media queries day-1)SESSION-12</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/1cAI8yym-xJQEdmCDj_gFU1QCBalfAuQy/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
-                </div>
-                <br>
-                <p>GRADIENT GENERATOR:
-                    <a href="https://cssgradient.io/">https://cssgradient.io/</a>
-                </p>
-                <p>HD IMAGES:
-                    <a href="https://unsplash.com/">https://unsplash.com/</a>
-                </p>
-                <p>CODE REFERENCE:
-                    <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-12.git">
-                        https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-12.git</a>
-                </p>
-            </div>
-            <hr style="border:3px solid rgb(1, 0, 3);">
-            <div class="concepts" id="list-item-13">
-                <h4 style="color:teal;font-weight:600;">(css media queries day-2)SESSION-13</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/133SiPE0_jIGJyiHS-tT9WzJUCb4TrX5K/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
-                </div>
-                <br>
-                <p>IDEA GENERATOR:
-                    <a href="https://dribbble.com">https://dribbble.com</a>
-                </p>
-                <p>CODE REFERENCE:
-                    <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-13.git">
-                        https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-13.git</a>
-                </p>
-            </div>
-            <hr style="border:3px solid rgb(1, 0, 3);">
-            <div class="concepts" id="list-item-14">
-                <h4 style="color:teal;font-weight:600;">(css login forms)SESSION-14</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/1BowOn-ht0LQxviXKEOPfgrbW5WHfd5-I/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
-                </div>
-                <br>
-
-                <p>BLOG PAGE:
-                    <a href="https://elements-iota.vercel.app/">https://elements-iota.vercel.app/</a>
-                </p>
-                <p>CODE REFERENCE:
-                    <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-14.git">
-                        https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-14.git</a>
-                </p>
-            </div>
-            <hr style="border:3px solid rgb(1, 0, 3);">
-            <div class="concepts" id="list-item-15">
-                <h4 style="color:teal;font-weight:600;">(css pseudo elements)SESSION-15</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/1eEszEmquHPwmsbQckIOGXBGCjLp797N1/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
-                </div>
-                <br>
-                <p>CODE REFERENCE:
-                    <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-15.git">
-                        https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-15.git</a>
-                </p>
-            </div>
-            <hr style="border:3px solid rgb(1, 0, 3);">
-            <div class="concepts" id="list-item-16">
-                <h4 style="color:teal;font-weight:600;">(css pseudo classes part-1)SESSION-16</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/1mtx3FwZjfEkRQu1LTGP8NDgvtC9M3GaC/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
-                </div>
-                <br>
-                <p>CODE REFERENCE:
-                    <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-16.git">
-                        https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-16.git</a>
-                </p>
-            </div>
-            <hr style="border:3px solid rgb(1, 0, 3);">
-            <div class="concepts" id="list-item-17">
-                <h4 style="color:teal;font-weight:600;">(css pseudo classes part-2,login)SESSION-17</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/1aYkXdisHBlSSyAkvZWywl16FHF2Ujkkd/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
-                </div>
-                <br>
-                <p>CODE REFERENCE:
-                    <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/stnup-day-17.git">
-                        https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/stnup-day-17.git</a>
-                </p>
-            </div>
-            <hr style="border:3px solid rgb(1, 0, 3);">
-            <div class="concepts" id="list-item-18">
-                <h4 style="color:teal;font-weight:600;">(css animations)SESSION-18</h4>
-                <div class="video-container position-relate">
-
-                    <iframe src="https://drive.google.com/file/d/1nUILeedtT89r72SEwAunKljUmz5DzgUa/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
-                </div>
-            </div>
-            <hr style="border:3px solid rgb(1, 0, 3);">
-            <div class="concepts" id="list-item-19">
-                <h4 style="color:teal;font-weight:600;">(bootstrap CDN & download method)SESSION-19</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/1LVCsWqiR_7JrBL_PcmcDVBhHgv--6zUW/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
-                </div>
-
-            </div>
-            <hr style="border:3px solid rgb(1, 0, 3);">
-            <div class="concepts" id="list-item-20">
-                <h4 style="color:teal;font-weight:600;">(bootstrap npm method)SESSION-20</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/147BWov7lcCE8njMQWS2oZgwtS4tk6GTW/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
-                </div>
-
-            </div>
-            <hr style="border:3px solid rgb(1, 0, 3);">
-            <div class="concepts" id="list-item-21">
-                <h4 style="color:teal;font-weight:600;">(bootstrap classes)SESSION-21</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/1QELnIZ54r_xjbyoR7hV1q1y3TMMA9dkU/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
-                </div>
-
-            </div>
-            <hr style="border:3px solid rgb(1, 0, 3);">
-            <div class="concepts" id="list-item-22">
-                <h4 style="color:teal;font-weight:600;">(bootstrap card & grid system)SESSION-22</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/1InEWJ4PuZELff1uYWUvOWVmHwAKOuS6Z/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
-                </div>
-            </div>
-            <hr style="border:3px solid rgb(1, 0, 3);">
-            <div class="concepts" id="list-item-23">
-                <h4 style="color:teal;font-weight:600;">(sass,modal,navbar,forms)SESSION-23</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/1D6bhKzgeVD1ndMoBN1It20YKCW8B_BYA/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
-                </div>
-            </div>
-            <hr style="border:3px solid rgb(1, 0, 3);">
-            <div class="concepts" id="list-item-24">
-                <h4 style="color:teal;font-weight:600;">(scrollspy,carousel,offcanvas)SESSION-24</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/1dfKyg6QaLgwbGLMFu2MSsaGhISeMpXOf/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
-                </div>
-            </div>
-            <hr style="border:3px solid rgb(1, 0, 3);">
-            <div class="concepts" id="list-item-25">
-                <h4 style="color:teal;font-weight:600;">(introduction to git)SESSION-25</h4>
-                <div class="video-container position-relate">
-                    <iframe src="https://drive.google.com/file/d/1BVNWPyodSEKuYHsTCQUT3XwRwhD17k5L/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-                    <div class="layer"></div>
-
-                </div>
+                    </div>
                 </div>
                 <hr style="border:3px solid rgb(1, 0, 3);">
                 <div class="concepts" id="list-item-26">
                     <h4 style="color:teal;font-weight:600;">(git resets and branching)SESSION-26</h4>
                     <div class="video-container position-relate">
-                        <iframe src="https://drive.google.com/file/d/1VrqXewoaV7CglHG0rr5Gx4H2b0OiyosE/preview" width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <iframe src="https://drive.google.com/file/d/1VrqXewoaV7CglHG0rr5Gx4H2b0OiyosE/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
                         <div class="layer"></div>
 
                     </div>
-                   
+
                 </div>
                 <hr style="border:3px solid rgb(1, 0, 3);">
                 <div class="concepts" id="list-item-27">
-                    <h4 style="color:teal;font-weight:600;">
-                        <h3>(GIT & GITHUB DAY3)SESSION-27
-                        </h4>
-                        <div class="video-container position-relate">
-                            <div class="layer"></div>
+                    <h4 style="color:teal;font-weight:600;">(git merge & clone)SESSION-27</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1y4H7Y6r6bjvpwTOAVK1gfyqZhelF8trX/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
 
-                        </div>
-                        <p>CODE REFERENCE:
+                    </div>
+                    <!-- <p>CODE REFERENCE:
                             <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/git-day2-part2/tree/main">
                                 https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/git-day2-part2/tree/main</a>
-                        </p>
-                    </div>
-                    <hr style="border:3px solid rgb(1, 0, 3);">
-                    <div class="concepts" id="list-item-28">
-                        <h4 style="color:teal;font-weight:600;">(GIT & GITHUB DAY4)SESSION-28</h4>
-                        <div class="video-container position-relate">
-                            <div class="layer"></div>
+                        </p> -->
+                </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <div class="concepts" id="list-item-28">
+                    <h4 style="color:teal;font-weight:600;">(portfolio day-1)SESSION-28</h4>
+                    <div class="video-container position-relate">
+                        <iframe src="https://drive.google.com/file/d/1Rb7rWwH_jB8B38_p1Mwn0iLXYR-g_VAL/preview"
+                            width="100%" height="100%" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+                        <div class="layer"></div>
 
-                        </div>
-                        <br>
-                        <p>CODE REFERENCE:
-                            <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/git-merge/tree/main">
-                                https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/git-merge/tree/main</</div>
-                            <hr style="border:3px solid rgb(1, 0, 3);">
-                            <div class="concepts" id="list-item-29">
-                                <h4 style="color:teal;font-weight:600;">(PET SELLING PROJECT DAY-1)SESSION-29</h4>
-                                <div class="video-container position-relate">
-                                    <div class="layer"></div>
-
-                                </div>
-                                <br>
-
-                            </div>
-                            <hr style="border:3px solid rgb(1, 0, 3);">
-                            <div class="concepts" id="list-item-30">
-                                <h4 style="color:teal;font-weight:600;">(PET SELLING PROJECT DAY-2)SESSION-30</h4>
-                                <div class="video-container position-relate">
-                                    <div class="layer"></div>
-
-                                </div>
-                                <br>
-                                <p>UNIVERSE.IO:
-                                    <a href="https://uiverse.io/">https://uiverse.io/</a>
-                                </p>
-                            </div>
-                            <hr style="border:3px solid rgb(1, 0, 3);">
-                            <div class="concepts" id="list-item-31">
-                                <h4 style="color:teal;font-weight:600;">(PET SELLING PROJECT DAY-3)SESSION-31</h4>
-                                <div class="video-container position-relate">
-                                    <div class="layer"></div>
-
-                                </div>
-                                <br>
-
-                            </div>
-                            <hr style="border:3px solid rgb(1, 0, 3);">
-                            <div class="concepts" id="list-item-32">
-                                <h4 style="color:teal;font-weight:600;">(PET SELLING PROJECT DAY-4)SESSION-32</h4>
-                                <div class="video-container position-relate">
-                                    <div class="layer"></div>
-
-                                </div>
-                                <br>
-                                <p>CODE REFERENCE:
-                                    <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/petselling-project/tree/main">
-                                        https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/petselling-project/tree/main</a>
-                                </p>
-                            </div>
-                            <hr style="border:3px solid rgb(1, 0, 3);">
-                            <div class="concepts" id="list-item-33">
-                                <h4 style="color:teal;font-weight:600;">(FINAL DAY OF HACKATHON)SESSION-33</h4>
-                                <div class="video-container position-relate">
-                                    <div class="layer"></div>
-
-                                </div>
-                                <br>
-                                <p>CODE REFERENCE:
-                                    <a href="https://github.com/PRASANTH-REDDY-NANDHARAPU/petselling-project/tree/main">
-                                        https://github.com/PRASANTH-REDDY-NANDH<br>ARAPU/petselling-project/tree/main</a>
-                                </p>
-                            </div>
-                        </p>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div id="list-example" class="list-group table-tech">
-                    <a class="list-group-item list-group-item-action" href="#list-item-1">(Meta tags,boiler
-                                                plate,favicon)SESSION-1</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-2">(Heading
-                                                elements,video,audio,picture)SESSION-2</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-3">(Git hub
-                                                account,vercel,netlify,deploy)SESSION-3</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-4">(Input
-                                                tags,validations,navigating pages)SESSION-4</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-5">(introduction to css,types of
-                                                css)SESSION-5</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-6">(text properties,google
-                                                fonts,chrome extensions)SESSION-6</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-7">(css box model)SESSION-7</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-8">(flex box day-1,shimmer
-                                                ui,cloning-cards)SESSION-8</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-9">(flex box day-2,instagram
-                                                reel)SESSION-9</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-10">(static,fixed,sticky
-                                                positions)SESSION-10</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-11">(relative,absolute
-                                                positions)SESSION-11</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-12">(css media queries
-                                                day-1)SESSION-12</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-13">(css media queries
-                                                day-2)SESSION-13</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-14">(css login
-                                                forms)SESSION-14</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-15">(css pseudo
-                                                elements)SESSION-15</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-16">(css pseudo classes
-                                                part-1)SESSION-16</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-17">(css pseudo classes
-                                                part-2,login)SESSION-17</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-18">(css
-                                                animations)SESSION-18</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-19">(bootstrap CDN & download
-                                                method)SESSION-19</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-20">(bootstrap npm
-                                                method)SESSION-20</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-21">(bootstrap
-                                                classes)SESSION-21</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-22">(bootstrap card & grid
-                                                system)SESSION-22</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-23">(sass,modal,navbar,forms)SESSION-23</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-24">(scrollspy,carousel,offcanvas)SESSION-24</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-25">(introduction to git)SESSION-25</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-26">(git resets and branching)SESSION-26</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-27">(GIT & GITHUB
-                                                DAY3)SESSION-27</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-28">(GIT & GITHUB
-                                                DAY4)SESSION-28</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-29">(PET SELLING PROJECT
-                                                DAY-1)SESSION-29</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-30">(PET SELLING PROJECT
-                                                DAY-2)SESSION-30</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-31">(PET SELLING PROJECT
-                                                DAY-3)SESSION-31</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-32">(PET SELLING PROJECT
-                                                DAY-4)SESSION-32</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-33">(FINAL DAY OF
-                                                HACKATHON)SESSION-33</a>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <div class="concepts" id="list-item-29">
+                    <h4 style="color:teal;font-weight:600;">(PET SELLING PROJECT DAY-1)SESSION-29</h4>
+                    <div class="video-container position-relate">
+                        <div class="layer"></div>
 
+                    </div>
                 </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+                <div class="concepts" id="list-item-30">
+                    <h4 style="color:teal;font-weight:600;">(PET SELLING PROJECT DAY-2)SESSION-30</h4>
+                    <div class="video-container position-relate">
+                        <div class="layer"></div>
+                    </div>
+                </div>
+                <hr style="border:3px solid rgb(1, 0, 3);">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div id="list-example" class="list-group table-tech">
+                <a class="list-group-item list-group-item-action" href="#list-item-1">(Meta tags,boiler
+                    plate,favicon)SESSION-1</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">(Heading
+                    elements,video,audio,picture)SESSION-2</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">(Git hub
+                    account,vercel,netlify,deploy)SESSION-3</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4">(Input
+                    tags,validations,navigating pages)SESSION-4</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-5">(introduction to css,types of
+                    css)SESSION-5</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-6">(text properties,google
+                    fonts,chrome extensions)SESSION-6</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-7">(css box model)SESSION-7</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-8">(flex box day-1,shimmer
+                    ui,cloning-cards)SESSION-8</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-9">(flex box day-2,instagram
+                    reel)SESSION-9</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-10">(static,fixed,sticky
+                    positions)SESSION-10</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-11">(relative,absolute
+                    positions)SESSION-11</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-12">(css media queries
+                    day-1)SESSION-12</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-13">(css media queries
+                    day-2)SESSION-13</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-14">(css login
+                    forms)SESSION-14</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-15">(css pseudo
+                    elements)SESSION-15</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-16">(css pseudo classes
+                    part-1)SESSION-16</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-17">(css pseudo classes
+                    part-2,login)SESSION-17</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-18">(css
+                    animations)SESSION-18</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-19">(bootstrap CDN & download
+                    method)SESSION-19</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-20">(bootstrap npm
+                    method)SESSION-20</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-21">(bootstrap
+                    classes)SESSION-21</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-22">(bootstrap card & grid
+                    system)SESSION-22</a>
+                <a class="list-group-item list-group-item-action"
+                    href="#list-item-23">(sass,modal,navbar,forms)SESSION-23</a>
+                <a class="list-group-item list-group-item-action"
+                    href="#list-item-24">(scrollspy,carousel,offcanvas)SESSION-24</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-25">(introduction to
+                    git)SESSION-25</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-26">(git resets and
+                    branching)SESSION-26</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-27">(git merge &
+                    clone)SESSION-27</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-28">(portfolio
+                    day-1)SESSION-28</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-29">(PET SELLING PROJECT
+                    DAY-1)SESSION-29</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-30">(PET SELLING PROJECT
+                    DAY-2)SESSION-30</a>
             </div>
         </div>
 
-        <!-- ---------help button-------- -->
-        <div class="btn-group dropup">
-            <button type="button" class="help" data-bs-toggle="dropdown" aria-expanded="false">
+    </div>
 
-                <i class="bi bi-question-lg"></i>
+    <!-- ---------help button-------- -->
+    <div class="btn-group dropup">
+        <button type="button" class="help" data-bs-toggle="dropdown" aria-expanded="false">
 
-            </button>
-            <ul class="dropdown-menu">
-                <li>
-                    <a href="tel:7013595855" class="helping">
-                        <i class="bi bi-telephone ico-g"></i>
-                        make a call</a>
-                </li>
-                <li>
-                    <a href="https://wa.me/8143159889?text=HEY HII WE NEED STANDUP HELP & SUPPORT" class="helping">
-                        <i class="bi bi-whatsapp ico-g"></i>
-                        Whatsapp</a>
-                </li>
-                <li>
-                    <a href="mailto:borntocode143@gmail.com?subject=HEY HII WE NEED STANDUP HELP & SUPPORT" class="helping">
-                        <i class="bi bi-envelope-at ico-g"></i>
-                        gmail</a>
-                </li>
-            </ul>
+            <i class="bi bi-question-lg"></i>
+
+        </button>
+        <ul class="dropdown-menu">
+            <li>
+                <a href="tel:7013595855" class="helping">
+                    <i class="bi bi-telephone ico-g"></i>
+                    make a call</a>
+            </li>
+            <li>
+                <a href="https://wa.me/8143159889?text=HEY HII WE NEED STANDUP HELP & SUPPORT" class="helping">
+                    <i class="bi bi-whatsapp ico-g"></i>
+                    Whatsapp</a>
+            </li>
+            <li>
+                <a href="mailto:borntocode143@gmail.com?subject=HEY HII WE NEED STANDUP HELP & SUPPORT" class="helping">
+                    <i class="bi bi-envelope-at ico-g"></i>
+                    gmail</a>
+            </li>
+        </ul>
+    </div>
+    <!-- ---------------footer start----------------- -->
+    <div class="flex-container">
+        <div class="links-flex">
+            <li class="foot-fields">
+                <a class="foot-link" href="../html/contact.html">Contact</a>
+            </li>
+            <li class="foot-fields">
+                <a class="foot-link" href="#">Start teaching</a>
+            </li>
+            <li class="foot-fields">
+                <a class="foot-link" href="#">Privacy policy</a>
+            </li>
         </div>
-        <!-- ---------------footer start----------------- -->
-        <div class="flex-container">
-            <div class="links-flex">
-                <li class="foot-fields">
-                    <a class="foot-link" href="../html/contact.html">Contact</a>
-                </li>
-                <li class="foot-fields">
-                    <a class="foot-link" href="#">Start teaching</a>
-                </li>
-                <li class="foot-fields">
-                    <a class="foot-link" href="#">Privacy policy</a>
-                </li>
-            </div>
-            <div class="icons-flex">
-                <a href="https://www.instagram.com/prasanthreddy903/?r=nametag">
-                    <i class="bi bi-instagram flex-ico"></i>
-                </a>
-                <a href="https://www.facebook.com/home.php">
-                    <i class="bi bi-facebook flex-ico"></i>
-                </a>
-                <a href="https://twitter.com/home">
-                    <i class="bi bi-twitter flex-ico"></i>
-                </a>
-            </div>
+        <div class="icons-flex">
+            <a href="https://www.instagram.com/prasanthreddy903/?r=nametag">
+                <i class="bi bi-instagram flex-ico"></i>
+            </a>
+            <a href="https://www.facebook.com/home.php">
+                <i class="bi bi-facebook flex-ico"></i>
+            </a>
+            <a href="https://twitter.com/home">
+                <i class="bi bi-twitter flex-ico"></i>
+            </a>
         </div>
+    </div>
     </div>
     <script src="../javaScript/313.js"></script>
     <script src="../javaScript/assignRecord.js"></script>
 
-</body></html><!-- https://www.youtube.com/embed/XMGmvaNNpbU?autoplay=0&controls=0&disablekb=1&playsinline=1&cc_load_policy=0&cc_lang_pref=auto&widget_referrer=https%3A%2F%2Fcodekaro.in%2Frecording-sessions%2FeyJpdiI6ImdpQnhmWnVnRGxKM3lMOWFOTmRFbkE9PSIsInZhbHVlIjoiS04vUmtFMjJJZkx3cXErb2V3YlQ4dz09IiwibWFjIjoiNTQ1NDQ5NjBjN2U5OGQ0YTFhOTUxMDMyY2Y0MmVlN2Y5YTQ5ZTNiNTY4MDViNTk5MDZjN2JkMDcyMzhmZWE1YiJ9&noCookie=false&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&origin=https%3A%2F%2Fcodekaro.in&widgetid=1 -->
+</body>
+
+</html>
+<!-- https://www.youtube.com/embed/XMGmvaNNpbU?autoplay=0&controls=0&disablekb=1&playsinline=1&cc_load_policy=0&cc_lang_pref=auto&widget_referrer=https%3A%2F%2Fcodekaro.in%2Frecording-sessions%2FeyJpdiI6ImdpQnhmWnVnRGxKM3lMOWFOTmRFbkE9PSIsInZhbHVlIjoiS04vUmtFMjJJZkx3cXErb2V3YlQ4dz09IiwibWFjIjoiNTQ1NDQ5NjBjN2U5OGQ0YTFhOTUxMDMyY2Y0MmVlN2Y5YTQ5ZTNiNTY4MDViNTk5MDZjN2JkMDcyMzhmZWE1YiJ9&noCookie=false&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&origin=https%3A%2F%2Fcodekaro.in&widgetid=1 -->
