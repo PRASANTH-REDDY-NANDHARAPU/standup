@@ -116,7 +116,9 @@ function login315() {
       open("../html/recordings315.html");
     }else if (username == "divya sree" && password == "divya65") {
       open("../html/recordings315.html");
-    } else {
+    } else if (username == "vedik" && password == "vedik65") {
+      open("../html/recordings315.html");
+    }else {
       open("../html/error.html");
     }
   }
