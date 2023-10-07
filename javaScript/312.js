@@ -198,24 +198,5 @@ function login312() {
       open("../html/error.html")
     }
   }
-  // -------------function for 314-----------
-  function login315(){
-    let username = document.getElementById("floatingInputFour").value;
-    let password = document.getElementById("floatingPasswordFour").value;
-    if (username == "prasanth" && password == "prakarthik"){
-      open("../html/recordings.html");
-    }else{
-      open("../html/error.html")
-    }
-  }
-  // -------------function for 315-----------
-  function login316(){
-    let username = document.getElementById("floatingInputFive").value;
-    let password = document.getElementById("floatingPasswordFive").value;
-    if (username == "prasanth" && password == "prakarthik"){
-      open("../html/recordings.html");
-    }else{
-      open("../html/error.html")
-    }
-  }
+  
 
