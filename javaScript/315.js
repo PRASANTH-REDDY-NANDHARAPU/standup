@@ -68,7 +68,7 @@ function login315() {
       open("../html/recordings315.html");
     } else if (username == "aishwarya" && password == "aishwarya123") {
       open("../html/recordings315.html");
-    } else if (username == "tanmaieesai" && password == "tanmaiees000") {
+    } else if (username == "tanmaieesai" && password == "tanmaiee000") {
       open("../html/recordings315.html");
     }  else if (username == "jahnavi" && password == "jahnavi455") {
       open("../html/recordings315.html");
