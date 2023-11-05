@@ -16,9 +16,10 @@
     align-items: center;
 }
 .video-container{
-    height: 500px;
+    height: 470px;
     background-color: blanchedalmond;
     object-fit: cover;
+    /* object-position: center center; */
 }
 .ytp-copy-link-icon{
     display: none;
