@@ -50,8 +50,6 @@ p{
 .record-color{
     background-color: blue;
 }
-
-
 @media(max-width:576px){
     
     .video-container{
