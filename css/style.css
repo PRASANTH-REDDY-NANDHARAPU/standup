@@ -339,6 +339,35 @@ body {
 .ico-none {
   text-decoration: none;
 }
+.inter{
+  width: 100%;
+  height: 500px;
+  border: none;
+  overflow-x: auto;
+  overflow-y: auto;
+  position:relative;
+}
+.rel{
+  width: 100%;
+  position:relative;
+ 
+}
+.abs{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.orange{
+  color: rgb(255, 85, 0);
+}
+.q-a{
+  width: 350px;
+  height: 350px;
+  transform: scaleX(-1);
+}
+.up-scale{
+  margin-left: 20px;
+}
 
 @media (max-width: 576px) {
   
@@ -458,4 +487,14 @@ body {
     justify-content: space-between;
     margin-bottom: 30px;
   }
+  .q-a{
+    display: none;
+  }
+  .up-scale{
+    text-align: center;
+  }
+  .orange{
+    font-size: 15px;
+  }
+
 }
