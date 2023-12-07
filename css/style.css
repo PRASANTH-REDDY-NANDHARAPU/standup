@@ -363,12 +363,44 @@ body {
 .q-a{
   width: 350px;
   height: 350px;
+  margin-top: 85px;
   transform: scaleX(-1);
 }
 .up-scale{
   margin-left: 20px;
 }
-
+.temp-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.temp{
+  width: 320px;
+  border: 2px solid grey;
+  margin: 30px;
+}
+.temp-img{
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+}
+.down{
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+.down-flex{
+  width: 100%;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 @media (max-width: 576px) {
   
   .nav-fields{
@@ -490,9 +522,11 @@ body {
   .q-a{
     width: 150px;
     height: 150px;
-    margin-top: -22px;
+     margin-top: 110px;
+     padding: 0;
   }
   .up-scale{
+    margin-left:5px;
     text-align: center;
   }
   .orange{
